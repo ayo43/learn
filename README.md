@@ -1,8 +1,5 @@
 
 
-## Tutorial
-[Here](https://dev.to/earthcomfy/series/14274) is a tutorial on how to build this project.
-
 ### Quick Start
 To get this project up and running locally on your computer follow the following steps.
 1. Set up a python virtual environment
