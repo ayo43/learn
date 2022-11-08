@@ -1,3 +1,58 @@
+/*
+    Table of Contents
+
+    Name                 : MAXSKILLS
+    Author               : DexignLab
+    Author Portfolio     : https://themeforest.net/user/dexignlab/portfolio
+
+
+
+    Table of Sass Contents
+
+    1. Abstracts
+        _bs-custom
+        _inheritance
+        _maps
+        _mixin
+        _variable
+
+    2. bootstrap
+        -Here goes all official bootstrap scss files
+
+    3. Global/Base
+        _color
+        _custom-grid
+        _fonts
+        _helper
+        _reset
+
+    4. layout
+        +footer
+        +header
+        +rtl
+        +sidebar
+        +tables
+        +theme
+        +version-dark
+
+    5. Conponents
+        +app
+        +charts
+        +forms
+        +map
+        +uc
+        +ui
+        +widget
+
+    6. Page
+        _index-1
+        _page-error
+        _page-register
+        _page-signin
+        _page-user-lock
+        _page-user-lock
+
+*/
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&amp;display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
@@ -85,7 +140,7 @@
   left: auto; }
 
 :root {
-  --primary: #FF6A59;
+  --primary: #2a2b61;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
   --primary-hover: #ff3c26;
@@ -271,7 +326,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: #FF6A59;
+  --bs-primary: #2a2b61;
   --bs-secondary: #4CBC9A;
   --bs-success: #56c760;
   --bs-info: #58bad7;
@@ -417,7 +472,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: #FF6A59;
+  color: #2a2b61;
   text-decoration: underline; }
   a:hover {
     color: #cc5547; }
@@ -1959,15 +2014,15 @@ textarea.form-control-lg {
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgba(255, 106, 89, 0.25); }
   .form-check-input:checked {
-    background-color: #FF6A59;
-    border-color: #FF6A59; }
+    background-color: #2a2b61;
+    border-color: #2a2b61; }
     .form-check-input:checked[type="checkbox"] {
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e"); }
     .form-check-input:checked[type="radio"] {
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e"); }
   .form-check-input[type="checkbox"]:indeterminate {
-    background-color: #FF6A59;
-    border-color: #FF6A59;
+    background-color: #2a2b61;
+    border-color: #2a2b61;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e"); }
   .form-check-input:disabled {
     pointer-events: none;
@@ -2025,7 +2080,7 @@ textarea.form-control-lg {
     width: 1rem;
     height: 1rem;
     margin-top: -0.25rem;
-    background-color: #FF6A59;
+    background-color: #2a2b61;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2046,7 +2101,7 @@ textarea.form-control-lg {
   .form-range::-moz-range-thumb {
     width: 1rem;
     height: 1rem;
-    background-color: #FF6A59;
+    background-color: #2a2b61;
     border: 0;
     border-radius: 1rem;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2337,8 +2392,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #000;
-  background-color: #FF6A59;
-  border-color: #FF6A59; }
+  background-color: #2a2b61;
+  border-color: #2a2b61; }
   .btn-primary:hover {
     color: #000;
     background-color: #ff8072;
@@ -2360,8 +2415,8 @@ textarea.form-control-lg {
       box-shadow: 0 0 0 0.25rem rgba(217, 90, 76, 0.5); }
   .btn-primary:disabled, .btn-primary.disabled {
     color: #000;
-    background-color: #FF6A59;
-    border-color: #FF6A59; }
+    background-color: #2a2b61;
+    border-color: #2a2b61; }
 
 .btn-secondary {
   color: #000;
@@ -2560,24 +2615,24 @@ textarea.form-control-lg {
     border-color: #6e6e6e; }
 
 .btn-outline-primary {
-  color: #FF6A59;
-  border-color: #FF6A59; }
+  color: #2a2b61;
+  border-color: #2a2b61; }
   .btn-outline-primary:hover {
     color: #000;
-    background-color: #FF6A59;
-    border-color: #FF6A59; }
+    background-color: #2a2b61;
+    border-color: #2a2b61; }
   .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
     box-shadow: 0 0 0 0.25rem rgba(255, 106, 89, 0.5); }
   .btn-check:checked + .btn-outline-primary,
   .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
     color: #000;
-    background-color: #FF6A59;
-    border-color: #FF6A59; }
+    background-color: #2a2b61;
+    border-color: #2a2b61; }
     .btn-check:checked + .btn-outline-primary:focus,
     .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
       box-shadow: 0 0 0 0.25rem rgba(255, 106, 89, 0.5); }
   .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-    color: #FF6A59;
+    color: #2a2b61;
     background-color: transparent; }
 
 .btn-outline-secondary {
@@ -2729,7 +2784,7 @@ textarea.form-control-lg {
 
 .btn-link {
   font-weight: 400;
-  color: #FF6A59;
+  color: #2a2b61;
   text-decoration: underline; }
   .btn-link:hover {
     color: #cc5547; }
@@ -2977,7 +3032,7 @@ textarea.form-control-lg {
   .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #FF6A59; }
+    background-color: #2a2b61; }
   .dropdown-item.disabled, .dropdown-item:disabled {
     color: #adb5bd;
     pointer-events: none;
@@ -3010,7 +3065,7 @@ textarea.form-control-lg {
       background-color: rgba(255, 255, 255, 0.15); }
     .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
       color: #fff;
-      background-color: #FF6A59; }
+      background-color: #2a2b61; }
     .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
       color: #adb5bd; }
   .dropdown-menu-dark .dropdown-divider {
@@ -3155,7 +3210,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #FF6A59; }
+  background-color: #2a2b61; }
 
 .nav-fill > .nav-link,
 .nav-fill .nav-item {
@@ -3668,7 +3723,7 @@ textarea.form-control-lg {
 .page-link {
   position: relative;
   display: block;
-  color: #FF6A59;
+  color: #2a2b61;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -3694,8 +3749,8 @@ textarea.form-control-lg {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #FF6A59;
-  border-color: #FF6A59; }
+  background-color: #2a2b61;
+  border-color: #2a2b61; }
 
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -3854,7 +3909,7 @@ textarea.form-control-lg {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #FF6A59;
+  background-color: #2a2b61;
   transition: width 0.6s ease; }
   @media (prefers-reduced-motion: reduce) {
     .progress-bar {
@@ -3910,8 +3965,8 @@ textarea.form-control-lg {
   .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #FF6A59;
-    border-color: #FF6A59; }
+    background-color: #2a2b61;
+    border-color: #2a2b61; }
   .list-group-item + .list-group-item {
     border-top-width: 0; }
     .list-group-item + .list-group-item.active {
@@ -4844,7 +4899,7 @@ textarea.form-control-lg {
   content: ""; }
 
 .link-primary {
-  color: #FF6A59; }
+  color: #2a2b61; }
   .link-primary:hover, .link-primary:focus {
     color: #ff887a; }
 
@@ -5156,7 +5211,7 @@ textarea.form-control-lg {
   border-left: 0 !important; }
 
 .border-primary {
-  border-color: #FF6A59 !important; }
+  border-color: #2a2b61 !important; }
 
 .border-secondary {
   border-color: #4CBC9A !important; }
@@ -5752,7 +5807,7 @@ textarea.form-control-lg {
   text-align: center !important; }
 
 .text-primary {
-  color: #FF6A59 !important; }
+  color: #2a2b61 !important; }
 
 .text-secondary {
   color: #4CBC9A !important; }
@@ -5806,7 +5861,7 @@ textarea.form-control-lg {
   line-height: 2 !important; }
 
 .bg-primary {
-  background-color: #FF6A59 !important; }
+  background-color: #2a2b61 !important; }
 
 .bg-secondary {
   background-color: #4CBC9A !important; }
@@ -9253,7 +9308,7 @@ svg.pulse-svg {
   padding: 0.9375rem 0;
   min-width: 12.5rem; }
   .header-profile .dropdown-menu a:hover, .header-profile .dropdown-menu a:focus, .header-profile .dropdown-menu a.active {
-    color: #FF6A59; }
+    color: #2a2b61; }
 
 .header-profile img {
   width: 2.813rem;
@@ -9276,7 +9331,7 @@ svg.pulse-svg {
     display: none; } }
 
 .header-profile .profile_title {
-  background: #FF6A59;
+  background: #2a2b61;
   color: #fff;
   padding: 0.625rem 1.25rem; }
   .header-profile .profile_title h5, .header-profile .profile_title .h5 {
@@ -11314,7 +11369,7 @@ svg.pulse-svg {
       margin-right: 10px; }
     [direction="rtl"] .widget-timeline-icon li {
       border-left: 0;
-      border-right: 6px solid #FF6A59; }
+      border-right: 6px solid #2a2b61; }
       [direction="rtl"] .widget-timeline-icon li a {
         padding: 0 30px 30px 0; }
       [direction="rtl"] .widget-timeline-icon li .icon {
@@ -11770,7 +11825,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
         color: #fff;
         background: var(--primary);
         font-weight: 500;
-        box-shadow: 0px 20px 50px 0px #FF6A591A; }
+        box-shadow: 0px 20px 50px 0px #2a2b611A; }
         .dlabnav .metismenu > li.mm-active > a i {
           font-weight: 100; }
         .dlabnav .metismenu > li.mm-active > a svg path {
@@ -12145,7 +12200,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
   width: 50vw; }
 
 :root {
-  --primary: #FF6A59;
+  --primary: #2a2b61;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
   --primary-hover: #ff3c26;
@@ -12202,13 +12257,13 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 						right:0rem;
 						@include transitionMedium;
 						border-radius:1.25rem;
-						
+
 					} */ }
   [data-sidebar-style="full"][data-layout="vertical"] .dlabnav .metismenu > li.mm-active > a {
     /* &:before{
 							width:0.563rem;
 							@include respond ('laptop'){
-								width:0.600rem;	
+								width:0.600rem;
 							}
 						} */ }
     [data-sidebar-style="full"][data-layout="vertical"] .dlabnav .metismenu > li.mm-active > a i {
@@ -12374,7 +12429,7 @@ The smaller device rules always should write below the bigger device rules
 Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Component
 */
 :root {
-  --primary: #FF6A59;
+  --primary: #2a2b61;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
   --primary-hover: #ff3c26;
@@ -12620,7 +12675,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     transform: rotate(-225deg) translateY(-50%); } }
 
 :root {
-  --primary: #FF6A59;
+  --primary: #2a2b61;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
   --primary-hover: #ff3c26;
@@ -13522,7 +13577,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   z-index: 9;
   top: 7.75rem;
   right: 100%;
-  background-color: #FF6A59;
+  background-color: #2a2b61;
   color: #fff;
   display: inline-block;
   height: 3rem;
@@ -13683,7 +13738,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   .sidebar-right #sidebar_color_3 + label,
   .sidebar-right #secondary_color_3 + label,
   .sidebar-right #primary_color_3 + label {
-    background-color: #FF6A59; }
+    background-color: #2a2b61; }
   .sidebar-right #nav_header_color_4 + label,
   .sidebar-right #header_color_4 + label,
   .sidebar-right #sidebar_color_4 + label,
@@ -14267,12 +14322,12 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					.brand-logo{
 						.brand-title{
 							path{
-								fill:$black;		
+								fill:$black;
 							}
 							tspan{
-								fill:$black;	
+								fill:$black;
 							}
-						}	
+						}
 					}
 					.hamburger .line{
 						background:$black;
@@ -14298,18 +14353,18 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 
 [data-nav-headerbg="color_3"][data-theme-version="dark"],
 [data-nav-headerbg="color_3"] {
-  --nav-headbg: #FF6A59;
+  --nav-headbg: #2a2b61;
   /* &[data-nav-headerbg="color_8"]{
 				.nav-header{
 					.brand-logo{
 						.brand-title{
 							path{
-								fill:$black;		
+								fill:$black;
 							}
 							tspan{
-								fill:$black;	
+								fill:$black;
 							}
-						}	
+						}
 					}
 					.hamburger .line{
 						background:$black;
@@ -14341,12 +14396,12 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					.brand-logo{
 						.brand-title{
 							path{
-								fill:$black;		
+								fill:$black;
 							}
 							tspan{
-								fill:$black;	
+								fill:$black;
 							}
-						}	
+						}
 					}
 					.hamburger .line{
 						background:$black;
@@ -14378,12 +14433,12 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					.brand-logo{
 						.brand-title{
 							path{
-								fill:$black;		
+								fill:$black;
 							}
 							tspan{
-								fill:$black;	
+								fill:$black;
 							}
-						}	
+						}
 					}
 					.hamburger .line{
 						background:$black;
@@ -14415,12 +14470,12 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					.brand-logo{
 						.brand-title{
 							path{
-								fill:$black;		
+								fill:$black;
 							}
 							tspan{
-								fill:$black;	
+								fill:$black;
 							}
-						}	
+						}
 					}
 					.hamburger .line{
 						background:$black;
@@ -14452,12 +14507,12 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					.brand-logo{
 						.brand-title{
 							path{
-								fill:$black;		
+								fill:$black;
 							}
 							tspan{
-								fill:$black;	
+								fill:$black;
 							}
-						}	
+						}
 					}
 					.hamburger .line{
 						background:$black;
@@ -14489,12 +14544,12 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					.brand-logo{
 						.brand-title{
 							path{
-								fill:$black;		
+								fill:$black;
 							}
 							tspan{
-								fill:$black;	
+								fill:$black;
 							}
-						}	
+						}
 					}
 					.hamburger .line{
 						background:$black;
@@ -14526,12 +14581,12 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					.brand-logo{
 						.brand-title{
 							path{
-								fill:$black;		
+								fill:$black;
 							}
 							tspan{
-								fill:$black;	
+								fill:$black;
 							}
-						}	
+						}
 					}
 					.hamburger .line{
 						background:$black;
@@ -14563,12 +14618,12 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					.brand-logo{
 						.brand-title{
 							path{
-								fill:$black;		
+								fill:$black;
 							}
 							tspan{
-								fill:$black;	
+								fill:$black;
 							}
-						}	
+						}
 					}
 					.hamburger .line{
 						background:$black;
@@ -14600,12 +14655,12 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					.brand-logo{
 						.brand-title{
 							path{
-								fill:$black;		
+								fill:$black;
 							}
 							tspan{
-								fill:$black;	
+								fill:$black;
 							}
-						}	
+						}
 					}
 					.hamburger .line{
 						background:$black;
@@ -14637,12 +14692,12 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					.brand-logo{
 						.brand-title{
 							path{
-								fill:$black;		
+								fill:$black;
 							}
 							tspan{
-								fill:$black;	
+								fill:$black;
 							}
-						}	
+						}
 					}
 					.hamburger .line{
 						background:$black;
@@ -14674,12 +14729,12 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					.brand-logo{
 						.brand-title{
 							path{
-								fill:$black;		
+								fill:$black;
 							}
 							tspan{
-								fill:$black;	
+								fill:$black;
 							}
-						}	
+						}
 					}
 					.hamburger .line{
 						background:$black;
@@ -14711,12 +14766,12 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					.brand-logo{
 						.brand-title{
 							path{
-								fill:$black;		
+								fill:$black;
 							}
 							tspan{
-								fill:$black;	
+								fill:$black;
 							}
-						}	
+						}
 					}
 					.hamburger .line{
 						background:$black;
@@ -14748,12 +14803,12 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					.brand-logo{
 						.brand-title{
 							path{
-								fill:$black;		
+								fill:$black;
 							}
 							tspan{
-								fill:$black;	
+								fill:$black;
 							}
-						}	
+						}
 					}
 					.hamburger .line{
 						background:$black;
@@ -14787,7 +14842,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 				.dlabnav .metismenu > li.mm-active > a,
 				.dlabnav .metismenu > li:hover > a{
 						background:transparent;
-				}	
+				}
 			} */
   /* &[data-sibebarbg="color_8"]{
 				.dlabnav .metismenu ul a:before {
@@ -14819,14 +14874,14 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 									&:before{
 										background:rgba($black,0.6)!important;
 									}
-									
-									
-								}	
+
+
+								}
 							}
 						}
 					}
 					.copyright p{
-						color:rgba($black,0.6);							
+						color:rgba($black,0.6);
 					}
 					.book-box{
 						background: rgba($black,0.4);
@@ -14835,16 +14890,16 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					color: rgba($black,0.6)
 					}
 					.sidebar-info{
-						color: rgba($black,0.6); 
+						color: rgba($black,0.6);
 						i{
-							color: rgba($black,0.6) 		
+							color: rgba($black,0.6)
 						}
 					}
-				} 
-				
+				}
+
 				 .plus-box{
-					background-color:rgba($black,0.4);	
-				} 
+					background-color:rgba($black,0.4);
+				}
 			} */ }
   [data-sibebarbg="color_2"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_2"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -14948,7 +15003,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 
 [data-sibebarbg="color_3"][data-theme-version="dark"],
 [data-sibebarbg="color_3"] {
-  --sidebar-bg: #FF6A59;
+  --sidebar-bg: #2a2b61;
   /* .hamburger .line{
 				background:$white;
 			} */
@@ -14956,7 +15011,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 				.dlabnav .metismenu > li.mm-active > a,
 				.dlabnav .metismenu > li:hover > a{
 						background:transparent;
-				}	
+				}
 			} */
   /* &[data-sibebarbg="color_8"]{
 				.dlabnav .metismenu ul a:before {
@@ -14988,14 +15043,14 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 									&:before{
 										background:rgba($black,0.6)!important;
 									}
-									
-									
-								}	
+
+
+								}
 							}
 						}
 					}
 					.copyright p{
-						color:rgba($black,0.6);							
+						color:rgba($black,0.6);
 					}
 					.book-box{
 						background: rgba($black,0.4);
@@ -15004,20 +15059,20 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					color: rgba($black,0.6)
 					}
 					.sidebar-info{
-						color: rgba($black,0.6); 
+						color: rgba($black,0.6);
 						i{
-							color: rgba($black,0.6) 		
+							color: rgba($black,0.6)
 						}
 					}
-				} 
-				
+				}
+
 				 .plus-box{
-					background-color:rgba($black,0.4);	
-				} 
+					background-color:rgba($black,0.4);
+				}
 			} */ }
   [data-sibebarbg="color_3"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_3"] .menu-toggle .dlabnav .metismenu li > ul {
-    background: #FF6A59 !important; }
+    background: #2a2b61 !important; }
   [data-sibebarbg="color_3"][data-theme-version="dark"] .dlabnav .metismenu ul a:before,
   [data-sibebarbg="color_3"] .dlabnav .metismenu ul a:before {
     background: rgba(255, 255, 255, 0.5); }
@@ -15125,7 +15180,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 				.dlabnav .metismenu > li.mm-active > a,
 				.dlabnav .metismenu > li:hover > a{
 						background:transparent;
-				}	
+				}
 			} */
   /* &[data-sibebarbg="color_8"]{
 				.dlabnav .metismenu ul a:before {
@@ -15157,14 +15212,14 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 									&:before{
 										background:rgba($black,0.6)!important;
 									}
-									
-									
-								}	
+
+
+								}
 							}
 						}
 					}
 					.copyright p{
-						color:rgba($black,0.6);							
+						color:rgba($black,0.6);
 					}
 					.book-box{
 						background: rgba($black,0.4);
@@ -15173,16 +15228,16 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					color: rgba($black,0.6)
 					}
 					.sidebar-info{
-						color: rgba($black,0.6); 
+						color: rgba($black,0.6);
 						i{
-							color: rgba($black,0.6) 		
+							color: rgba($black,0.6)
 						}
 					}
-				} 
-				
+				}
+
 				 .plus-box{
-					background-color:rgba($black,0.4);	
-				} 
+					background-color:rgba($black,0.4);
+				}
 			} */ }
   [data-sibebarbg="color_4"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_4"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -15294,7 +15349,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 				.dlabnav .metismenu > li.mm-active > a,
 				.dlabnav .metismenu > li:hover > a{
 						background:transparent;
-				}	
+				}
 			} */
   /* &[data-sibebarbg="color_8"]{
 				.dlabnav .metismenu ul a:before {
@@ -15326,14 +15381,14 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 									&:before{
 										background:rgba($black,0.6)!important;
 									}
-									
-									
-								}	
+
+
+								}
 							}
 						}
 					}
 					.copyright p{
-						color:rgba($black,0.6);							
+						color:rgba($black,0.6);
 					}
 					.book-box{
 						background: rgba($black,0.4);
@@ -15342,16 +15397,16 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					color: rgba($black,0.6)
 					}
 					.sidebar-info{
-						color: rgba($black,0.6); 
+						color: rgba($black,0.6);
 						i{
-							color: rgba($black,0.6) 		
+							color: rgba($black,0.6)
 						}
 					}
-				} 
-				
+				}
+
 				 .plus-box{
-					background-color:rgba($black,0.4);	
-				} 
+					background-color:rgba($black,0.4);
+				}
 			} */ }
   [data-sibebarbg="color_5"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_5"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -15463,7 +15518,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 				.dlabnav .metismenu > li.mm-active > a,
 				.dlabnav .metismenu > li:hover > a{
 						background:transparent;
-				}	
+				}
 			} */
   /* &[data-sibebarbg="color_8"]{
 				.dlabnav .metismenu ul a:before {
@@ -15495,14 +15550,14 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 									&:before{
 										background:rgba($black,0.6)!important;
 									}
-									
-									
-								}	
+
+
+								}
 							}
 						}
 					}
 					.copyright p{
-						color:rgba($black,0.6);							
+						color:rgba($black,0.6);
 					}
 					.book-box{
 						background: rgba($black,0.4);
@@ -15511,16 +15566,16 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					color: rgba($black,0.6)
 					}
 					.sidebar-info{
-						color: rgba($black,0.6); 
+						color: rgba($black,0.6);
 						i{
-							color: rgba($black,0.6) 		
+							color: rgba($black,0.6)
 						}
 					}
-				} 
-				
+				}
+
 				 .plus-box{
-					background-color:rgba($black,0.4);	
-				} 
+					background-color:rgba($black,0.4);
+				}
 			} */ }
   [data-sibebarbg="color_6"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_6"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -15632,7 +15687,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 				.dlabnav .metismenu > li.mm-active > a,
 				.dlabnav .metismenu > li:hover > a{
 						background:transparent;
-				}	
+				}
 			} */
   /* &[data-sibebarbg="color_8"]{
 				.dlabnav .metismenu ul a:before {
@@ -15664,14 +15719,14 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 									&:before{
 										background:rgba($black,0.6)!important;
 									}
-									
-									
-								}	
+
+
+								}
 							}
 						}
 					}
 					.copyright p{
-						color:rgba($black,0.6);							
+						color:rgba($black,0.6);
 					}
 					.book-box{
 						background: rgba($black,0.4);
@@ -15680,16 +15735,16 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					color: rgba($black,0.6)
 					}
 					.sidebar-info{
-						color: rgba($black,0.6); 
+						color: rgba($black,0.6);
 						i{
-							color: rgba($black,0.6) 		
+							color: rgba($black,0.6)
 						}
 					}
-				} 
-				
+				}
+
 				 .plus-box{
-					background-color:rgba($black,0.4);	
-				} 
+					background-color:rgba($black,0.4);
+				}
 			} */ }
   [data-sibebarbg="color_7"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_7"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -15801,7 +15856,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 				.dlabnav .metismenu > li.mm-active > a,
 				.dlabnav .metismenu > li:hover > a{
 						background:transparent;
-				}	
+				}
 			} */
   /* &[data-sibebarbg="color_8"]{
 				.dlabnav .metismenu ul a:before {
@@ -15833,14 +15888,14 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 									&:before{
 										background:rgba($black,0.6)!important;
 									}
-									
-									
-								}	
+
+
+								}
 							}
 						}
 					}
 					.copyright p{
-						color:rgba($black,0.6);							
+						color:rgba($black,0.6);
 					}
 					.book-box{
 						background: rgba($black,0.4);
@@ -15849,16 +15904,16 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					color: rgba($black,0.6)
 					}
 					.sidebar-info{
-						color: rgba($black,0.6); 
+						color: rgba($black,0.6);
 						i{
-							color: rgba($black,0.6) 		
+							color: rgba($black,0.6)
 						}
 					}
-				} 
-				
+				}
+
 				 .plus-box{
-					background-color:rgba($black,0.4);	
-				} 
+					background-color:rgba($black,0.4);
+				}
 			} */ }
   [data-sibebarbg="color_8"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_8"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -15970,7 +16025,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 				.dlabnav .metismenu > li.mm-active > a,
 				.dlabnav .metismenu > li:hover > a{
 						background:transparent;
-				}	
+				}
 			} */
   /* &[data-sibebarbg="color_8"]{
 				.dlabnav .metismenu ul a:before {
@@ -16002,14 +16057,14 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 									&:before{
 										background:rgba($black,0.6)!important;
 									}
-									
-									
-								}	
+
+
+								}
 							}
 						}
 					}
 					.copyright p{
-						color:rgba($black,0.6);							
+						color:rgba($black,0.6);
 					}
 					.book-box{
 						background: rgba($black,0.4);
@@ -16018,16 +16073,16 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					color: rgba($black,0.6)
 					}
 					.sidebar-info{
-						color: rgba($black,0.6); 
+						color: rgba($black,0.6);
 						i{
-							color: rgba($black,0.6) 		
+							color: rgba($black,0.6)
 						}
 					}
-				} 
-				
+				}
+
 				 .plus-box{
-					background-color:rgba($black,0.4);	
-				} 
+					background-color:rgba($black,0.4);
+				}
 			} */ }
   [data-sibebarbg="color_9"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_9"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -16139,7 +16194,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 				.dlabnav .metismenu > li.mm-active > a,
 				.dlabnav .metismenu > li:hover > a{
 						background:transparent;
-				}	
+				}
 			} */
   /* &[data-sibebarbg="color_8"]{
 				.dlabnav .metismenu ul a:before {
@@ -16171,14 +16226,14 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 									&:before{
 										background:rgba($black,0.6)!important;
 									}
-									
-									
-								}	
+
+
+								}
 							}
 						}
 					}
 					.copyright p{
-						color:rgba($black,0.6);							
+						color:rgba($black,0.6);
 					}
 					.book-box{
 						background: rgba($black,0.4);
@@ -16187,16 +16242,16 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					color: rgba($black,0.6)
 					}
 					.sidebar-info{
-						color: rgba($black,0.6); 
+						color: rgba($black,0.6);
 						i{
-							color: rgba($black,0.6) 		
+							color: rgba($black,0.6)
 						}
 					}
-				} 
-				
+				}
+
 				 .plus-box{
-					background-color:rgba($black,0.4);	
-				} 
+					background-color:rgba($black,0.4);
+				}
 			} */ }
   [data-sibebarbg="color_10"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_10"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -16308,7 +16363,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 				.dlabnav .metismenu > li.mm-active > a,
 				.dlabnav .metismenu > li:hover > a{
 						background:transparent;
-				}	
+				}
 			} */
   /* &[data-sibebarbg="color_8"]{
 				.dlabnav .metismenu ul a:before {
@@ -16340,14 +16395,14 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 									&:before{
 										background:rgba($black,0.6)!important;
 									}
-									
-									
-								}	
+
+
+								}
 							}
 						}
 					}
 					.copyright p{
-						color:rgba($black,0.6);							
+						color:rgba($black,0.6);
 					}
 					.book-box{
 						background: rgba($black,0.4);
@@ -16356,16 +16411,16 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					color: rgba($black,0.6)
 					}
 					.sidebar-info{
-						color: rgba($black,0.6); 
+						color: rgba($black,0.6);
 						i{
-							color: rgba($black,0.6) 		
+							color: rgba($black,0.6)
 						}
 					}
-				} 
-				
+				}
+
 				 .plus-box{
-					background-color:rgba($black,0.4);	
-				} 
+					background-color:rgba($black,0.4);
+				}
 			} */ }
   [data-sibebarbg="color_11"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_11"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -16477,7 +16532,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 				.dlabnav .metismenu > li.mm-active > a,
 				.dlabnav .metismenu > li:hover > a{
 						background:transparent;
-				}	
+				}
 			} */
   /* &[data-sibebarbg="color_8"]{
 				.dlabnav .metismenu ul a:before {
@@ -16509,14 +16564,14 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 									&:before{
 										background:rgba($black,0.6)!important;
 									}
-									
-									
-								}	
+
+
+								}
 							}
 						}
 					}
 					.copyright p{
-						color:rgba($black,0.6);							
+						color:rgba($black,0.6);
 					}
 					.book-box{
 						background: rgba($black,0.4);
@@ -16525,16 +16580,16 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					color: rgba($black,0.6)
 					}
 					.sidebar-info{
-						color: rgba($black,0.6); 
+						color: rgba($black,0.6);
 						i{
-							color: rgba($black,0.6) 		
+							color: rgba($black,0.6)
 						}
 					}
-				} 
-				
+				}
+
 				 .plus-box{
-					background-color:rgba($black,0.4);	
-				} 
+					background-color:rgba($black,0.4);
+				}
 			} */ }
   [data-sibebarbg="color_12"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_12"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -16646,7 +16701,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 				.dlabnav .metismenu > li.mm-active > a,
 				.dlabnav .metismenu > li:hover > a{
 						background:transparent;
-				}	
+				}
 			} */
   /* &[data-sibebarbg="color_8"]{
 				.dlabnav .metismenu ul a:before {
@@ -16678,14 +16733,14 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 									&:before{
 										background:rgba($black,0.6)!important;
 									}
-									
-									
-								}	
+
+
+								}
 							}
 						}
 					}
 					.copyright p{
-						color:rgba($black,0.6);							
+						color:rgba($black,0.6);
 					}
 					.book-box{
 						background: rgba($black,0.4);
@@ -16694,16 +16749,16 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					color: rgba($black,0.6)
 					}
 					.sidebar-info{
-						color: rgba($black,0.6); 
+						color: rgba($black,0.6);
 						i{
-							color: rgba($black,0.6) 		
+							color: rgba($black,0.6)
 						}
 					}
-				} 
-				
+				}
+
 				 .plus-box{
-					background-color:rgba($black,0.4);	
-				} 
+					background-color:rgba($black,0.4);
+				}
 			} */ }
   [data-sibebarbg="color_13"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_13"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -16815,7 +16870,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 				.dlabnav .metismenu > li.mm-active > a,
 				.dlabnav .metismenu > li:hover > a{
 						background:transparent;
-				}	
+				}
 			} */
   /* &[data-sibebarbg="color_8"]{
 				.dlabnav .metismenu ul a:before {
@@ -16847,14 +16902,14 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 									&:before{
 										background:rgba($black,0.6)!important;
 									}
-									
-									
-								}	
+
+
+								}
 							}
 						}
 					}
 					.copyright p{
-						color:rgba($black,0.6);							
+						color:rgba($black,0.6);
 					}
 					.book-box{
 						background: rgba($black,0.4);
@@ -16863,16 +16918,16 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					color: rgba($black,0.6)
 					}
 					.sidebar-info{
-						color: rgba($black,0.6); 
+						color: rgba($black,0.6);
 						i{
-							color: rgba($black,0.6) 		
+							color: rgba($black,0.6)
 						}
 					}
-				} 
-				
+				}
+
 				 .plus-box{
-					background-color:rgba($black,0.4);	
-				} 
+					background-color:rgba($black,0.4);
+				}
 			} */ }
   [data-sibebarbg="color_14"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_14"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -16984,7 +17039,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 				.dlabnav .metismenu > li.mm-active > a,
 				.dlabnav .metismenu > li:hover > a{
 						background:transparent;
-				}	
+				}
 			} */
   /* &[data-sibebarbg="color_8"]{
 				.dlabnav .metismenu ul a:before {
@@ -17016,14 +17071,14 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 									&:before{
 										background:rgba($black,0.6)!important;
 									}
-									
-									
-								}	
+
+
+								}
 							}
 						}
 					}
 					.copyright p{
-						color:rgba($black,0.6);							
+						color:rgba($black,0.6);
 					}
 					.book-box{
 						background: rgba($black,0.4);
@@ -17032,16 +17087,16 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 					color: rgba($black,0.6)
 					}
 					.sidebar-info{
-						color: rgba($black,0.6); 
+						color: rgba($black,0.6);
 						i{
-							color: rgba($black,0.6) 		
+							color: rgba($black,0.6)
 						}
 					}
-				} 
-				
+				}
+
 				 .plus-box{
-					background-color:rgba($black,0.4);	
-				} 
+					background-color:rgba($black,0.4);
+				}
 			} */ }
   [data-sibebarbg="color_15"][data-theme-version="dark"] .menu-toggle .dlabnav .metismenu li > ul,
   [data-sibebarbg="color_15"] .menu-toggle .dlabnav .metismenu li > ul {
@@ -17147,7 +17202,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 [data-headerbg="color_2"] {
   --headerbg: #49bb98;
   /* &[data-headerbg="color_8"]{
-					
+
 				.search-area .input-group-text,
 				.search-area .form-control,.search-area .form-control::placeholder{
 					color:$black;
@@ -17161,21 +17216,21 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 						}
 					}
 					.dashboard_bar{
-						color:$black;	
+						color:$black;
 					}
 					.plus-icon a{
-						background-color:$black;	
+						background-color:$black;
 					}
-					
+
 				}
 				.hamburger .line{
 					background:$black;
 					}
-				
+
 				.header-right{
 				svg{
 					path{
-						fill:rgba($black,0.4);	
+						fill:rgba($black,0.4);
 					}
 				}
 			} */ }
@@ -17227,9 +17282,9 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 
 [data-headerbg="color_3"][data-theme-version="dark"],
 [data-headerbg="color_3"] {
-  --headerbg: #FF6A59;
+  --headerbg: #2a2b61;
   /* &[data-headerbg="color_8"]{
-					
+
 				.search-area .input-group-text,
 				.search-area .form-control,.search-area .form-control::placeholder{
 					color:$black;
@@ -17243,21 +17298,21 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 						}
 					}
 					.dashboard_bar{
-						color:$black;	
+						color:$black;
 					}
 					.plus-icon a{
-						background-color:$black;	
+						background-color:$black;
 					}
-					
+
 				}
 				.hamburger .line{
 					background:$black;
 					}
-				
+
 				.header-right{
 				svg{
 					path{
-						fill:rgba($black,0.4);	
+						fill:rgba($black,0.4);
 					}
 				}
 			} */ }
@@ -17311,7 +17366,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 [data-headerbg="color_4"] {
   --headerbg: #ff965f;
   /* &[data-headerbg="color_8"]{
-					
+
 				.search-area .input-group-text,
 				.search-area .form-control,.search-area .form-control::placeholder{
 					color:$black;
@@ -17325,21 +17380,21 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 						}
 					}
 					.dashboard_bar{
-						color:$black;	
+						color:$black;
 					}
 					.plus-icon a{
-						background-color:$black;	
+						background-color:$black;
 					}
-					
+
 				}
 				.hamburger .line{
 					background:$black;
 					}
-				
+
 				.header-right{
 				svg{
 					path{
-						fill:rgba($black,0.4);	
+						fill:rgba($black,0.4);
 					}
 				}
 			} */ }
@@ -17393,7 +17448,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 [data-headerbg="color_5"] {
   --headerbg: #3250ff;
   /* &[data-headerbg="color_8"]{
-					
+
 				.search-area .input-group-text,
 				.search-area .form-control,.search-area .form-control::placeholder{
 					color:$black;
@@ -17407,21 +17462,21 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 						}
 					}
 					.dashboard_bar{
-						color:$black;	
+						color:$black;
 					}
 					.plus-icon a{
-						background-color:$black;	
+						background-color:$black;
 					}
-					
+
 				}
 				.hamburger .line{
 					background:$black;
 					}
-				
+
 				.header-right{
 				svg{
 					path{
-						fill:rgba($black,0.4);	
+						fill:rgba($black,0.4);
 					}
 				}
 			} */ }
@@ -17475,7 +17530,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 [data-headerbg="color_6"] {
   --headerbg: #3f8cff;
   /* &[data-headerbg="color_8"]{
-					
+
 				.search-area .input-group-text,
 				.search-area .form-control,.search-area .form-control::placeholder{
 					color:$black;
@@ -17489,21 +17544,21 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 						}
 					}
 					.dashboard_bar{
-						color:$black;	
+						color:$black;
 					}
 					.plus-icon a{
-						background-color:$black;	
+						background-color:$black;
 					}
-					
+
 				}
 				.hamburger .line{
 					background:$black;
 					}
-				
+
 				.header-right{
 				svg{
 					path{
-						fill:rgba($black,0.4);	
+						fill:rgba($black,0.4);
 					}
 				}
 			} */ }
@@ -17557,7 +17612,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 [data-headerbg="color_7"] {
   --headerbg: #40a7e2;
   /* &[data-headerbg="color_8"]{
-					
+
 				.search-area .input-group-text,
 				.search-area .form-control,.search-area .form-control::placeholder{
 					color:$black;
@@ -17571,21 +17626,21 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 						}
 					}
 					.dashboard_bar{
-						color:$black;	
+						color:$black;
 					}
 					.plus-icon a{
-						background-color:$black;	
+						background-color:$black;
 					}
-					
+
 				}
 				.hamburger .line{
 					background:$black;
 					}
-				
+
 				.header-right{
 				svg{
 					path{
-						fill:rgba($black,0.4);	
+						fill:rgba($black,0.4);
 					}
 				}
 			} */ }
@@ -17639,7 +17694,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 [data-headerbg="color_8"] {
   --headerbg: #b65fbd;
   /* &[data-headerbg="color_8"]{
-					
+
 				.search-area .input-group-text,
 				.search-area .form-control,.search-area .form-control::placeholder{
 					color:$black;
@@ -17653,21 +17708,21 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 						}
 					}
 					.dashboard_bar{
-						color:$black;	
+						color:$black;
 					}
 					.plus-icon a{
-						background-color:$black;	
+						background-color:$black;
 					}
-					
+
 				}
 				.hamburger .line{
 					background:$black;
 					}
-				
+
 				.header-right{
 				svg{
 					path{
-						fill:rgba($black,0.4);	
+						fill:rgba($black,0.4);
 					}
 				}
 			} */ }
@@ -17721,7 +17776,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 [data-headerbg="color_9"] {
   --headerbg: #88a67e;
   /* &[data-headerbg="color_8"]{
-					
+
 				.search-area .input-group-text,
 				.search-area .form-control,.search-area .form-control::placeholder{
 					color:$black;
@@ -17735,21 +17790,21 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 						}
 					}
 					.dashboard_bar{
-						color:$black;	
+						color:$black;
 					}
 					.plus-icon a{
-						background-color:$black;	
+						background-color:$black;
 					}
-					
+
 				}
 				.hamburger .line{
 					background:$black;
 					}
-				
+
 				.header-right{
 				svg{
 					path{
-						fill:rgba($black,0.4);	
+						fill:rgba($black,0.4);
 					}
 				}
 			} */ }
@@ -17803,7 +17858,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 [data-headerbg="color_10"] {
   --headerbg: #6759d1;
   /* &[data-headerbg="color_8"]{
-					
+
 				.search-area .input-group-text,
 				.search-area .form-control,.search-area .form-control::placeholder{
 					color:$black;
@@ -17817,21 +17872,21 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 						}
 					}
 					.dashboard_bar{
-						color:$black;	
+						color:$black;
 					}
 					.plus-icon a{
-						background-color:$black;	
+						background-color:$black;
 					}
-					
+
 				}
 				.hamburger .line{
 					background:$black;
 					}
-				
+
 				.header-right{
 				svg{
 					path{
-						fill:rgba($black,0.4);	
+						fill:rgba($black,0.4);
 					}
 				}
 			} */ }
@@ -17885,7 +17940,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 [data-headerbg="color_11"] {
   --headerbg: #c6164f;
   /* &[data-headerbg="color_8"]{
-					
+
 				.search-area .input-group-text,
 				.search-area .form-control,.search-area .form-control::placeholder{
 					color:$black;
@@ -17899,21 +17954,21 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 						}
 					}
 					.dashboard_bar{
-						color:$black;	
+						color:$black;
 					}
 					.plus-icon a{
-						background-color:$black;	
+						background-color:$black;
 					}
-					
+
 				}
 				.hamburger .line{
 					background:$black;
 					}
-				
+
 				.header-right{
 				svg{
 					path{
-						fill:rgba($black,0.4);	
+						fill:rgba($black,0.4);
 					}
 				}
 			} */ }
@@ -17967,7 +18022,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 [data-headerbg="color_12"] {
   --headerbg: #343a40;
   /* &[data-headerbg="color_8"]{
-					
+
 				.search-area .input-group-text,
 				.search-area .form-control,.search-area .form-control::placeholder{
 					color:$black;
@@ -17981,21 +18036,21 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 						}
 					}
 					.dashboard_bar{
-						color:$black;	
+						color:$black;
 					}
 					.plus-icon a{
-						background-color:$black;	
+						background-color:$black;
 					}
-					
+
 				}
 				.hamburger .line{
 					background:$black;
 					}
-				
+
 				.header-right{
 				svg{
 					path{
-						fill:rgba($black,0.4);	
+						fill:rgba($black,0.4);
 					}
 				}
 			} */ }
@@ -18049,7 +18104,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 [data-headerbg="color_13"] {
   --headerbg: #2a2a2a;
   /* &[data-headerbg="color_8"]{
-					
+
 				.search-area .input-group-text,
 				.search-area .form-control,.search-area .form-control::placeholder{
 					color:$black;
@@ -18063,21 +18118,21 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 						}
 					}
 					.dashboard_bar{
-						color:$black;	
+						color:$black;
 					}
 					.plus-icon a{
-						background-color:$black;	
+						background-color:$black;
 					}
-					
+
 				}
 				.hamburger .line{
 					background:$black;
 					}
-				
+
 				.header-right{
 				svg{
 					path{
-						fill:rgba($black,0.4);	
+						fill:rgba($black,0.4);
 					}
 				}
 			} */ }
@@ -18131,7 +18186,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 [data-headerbg="color_14"] {
   --headerbg: #4885ed;
   /* &[data-headerbg="color_8"]{
-					
+
 				.search-area .input-group-text,
 				.search-area .form-control,.search-area .form-control::placeholder{
 					color:$black;
@@ -18145,21 +18200,21 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 						}
 					}
 					.dashboard_bar{
-						color:$black;	
+						color:$black;
 					}
 					.plus-icon a{
-						background-color:$black;	
+						background-color:$black;
 					}
-					
+
 				}
 				.hamburger .line{
 					background:$black;
 					}
-				
+
 				.header-right{
 				svg{
 					path{
-						fill:rgba($black,0.4);	
+						fill:rgba($black,0.4);
 					}
 				}
 			} */ }
@@ -18213,7 +18268,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 [data-headerbg="color_15"] {
   --headerbg: #4cb32b;
   /* &[data-headerbg="color_8"]{
-					
+
 				.search-area .input-group-text,
 				.search-area .form-control,.search-area .form-control::placeholder{
 					color:$black;
@@ -18227,21 +18282,21 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
 						}
 					}
 					.dashboard_bar{
-						color:$black;	
+						color:$black;
 					}
 					.plus-icon a{
-						background-color:$black;	
+						background-color:$black;
 					}
-					
+
 				}
 				.hamburger .line{
 					background:$black;
 					}
-				
+
 				.header-right{
 				svg{
 					path{
-						fill:rgba($black,0.4);	
+						fill:rgba($black,0.4);
 					}
 				}
 			} */ }
@@ -18413,7 +18468,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   --rgba-primary-9: rgba(73, 187, 152, 0.9); }
 
 [data-primary="color_3"] {
-  --primary: #FF6A59;
+  --primary: #2a2b61;
   --primary-hover: #ff3c26;
   --primary-dark: #bf1400;
   --rgba-primary-1: rgba(255, 106, 89, 0.1);
@@ -18599,7 +18654,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   --secondary-dark: #39987b; }
 
 [data-secondary="color_3"] {
-  --secondary: #FF6A59;
+  --secondary: #2a2b61;
   --secondary-dark: #ff3c26; }
 
 [data-secondary="color_4"] {
@@ -18666,7 +18721,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   font-family: 'HelveticaNeue'; }
 
 :root {
-  --primary: #FF6A59;
+  --primary: #2a2b61;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
   --primary-hover: #ff3c26;
@@ -18756,7 +18811,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   color: #fff; }
   [data-theme-version="transparent"] .header-left input:focus {
     box-shadow: none;
-    border-color: #FF6A59; }
+    border-color: #2a2b61; }
   [data-theme-version="transparent"] .header-left input::placeholder {
     color: #fff; }
 
@@ -18813,7 +18868,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     border-color: transparent transparent rgba(0, 0, 0, 0.15) transparent; }
 
 :root {
-  --primary: #FF6A59;
+  --primary: #2a2b61;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
   --primary-hover: #ff3c26;
@@ -21257,7 +21312,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   border-color: transparent !important; }
 
 :root {
-  --primary: #FF6A59;
+  --primary: #2a2b61;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
   --primary-hover: #ff3c26;
@@ -21765,7 +21820,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   color: #777777; }
 
 :root {
-  --primary: #FF6A59;
+  --primary: #2a2b61;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
   --primary-hover: #ff3c26;
@@ -22025,7 +22080,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   border-bottom-right-radius: 0; }
 
 :root {
-  --primary: #FF6A59;
+  --primary: #2a2b61;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
   --primary-hover: #ff3c26;
@@ -22059,7 +22114,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     color: #fff; }
 
 :root {
-  --primary: #FF6A59;
+  --primary: #2a2b61;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
   --primary-hover: #ff3c26;
@@ -22109,7 +22164,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     margin-bottom: .5rem; }
 
 :root {
-  --primary: #FF6A59;
+  --primary: #2a2b61;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
   --primary-hover: #ff3c26;
@@ -22176,7 +22231,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   font-size: 2rem; }
 
 :root {
-  --primary: #FF6A59;
+  --primary: #2a2b61;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
   --primary-hover: #ff3c26;
@@ -31429,7 +31484,7 @@ table.dataTable.display tbody td {
       margin-right: 10px; }
     [direction="rtl"] .widget-timeline-icon li {
       border-left: 0;
-      border-right: 6px solid #FF6A59; }
+      border-right: 6px solid #2a2b61; }
       [direction="rtl"] .widget-timeline-icon li a {
         padding: 0 30px 30px 0; }
       [direction="rtl"] .widget-timeline-icon li .icon {
@@ -31593,7 +31648,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
   padding-right: 9.375rem; }
 
 :root {
-  --primary: #FF6A59;
+  --primary: #2a2b61;
   --secondary: #4CBC9A;
   --secondary-dark: #3a9b7e;
   --primary-hover: #ff3c26;
