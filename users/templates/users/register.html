@@ -39,6 +39,11 @@
 									</div>
                                     <h4 class="text-center mb-4">Sign up your account</h4>
                                     <form method="POST">
+                                        {{% csrf_token %}}
+                                        <div class="mb-3">
+                                            <label class="mb-1"><strong>Username</strong></label>
+                                            {{ form.username }}
+                                        </div>
                                         <div class="mb-3">
                                             <label class="mb-1"><strong>Firstname</strong></label>
                                             {{ form.first_name }}
@@ -47,10 +52,7 @@
                                             <label class="mb-1"><strong>Lastname</strong></label>
                                             {{ form.last_name }}
                                         </div>
-                                        <div class="mb-3">
-                                            <label class="mb-1"><strong>Username</strong></label>
-                                            {{ form.username }}
-                                        </div>
+
                                         <div class="mb-3">
                                             <label class="mb-1"><strong>Email</strong></label>
                                             {{ form.email }}
